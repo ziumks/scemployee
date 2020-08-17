@@ -18,11 +18,11 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
-//@EnableDiscoveryClient
-@EnableSwagger2
-@OpenAPIDefinition(info =
-	@Info(title = "Employee API", version = "1.0", description = "Documentation Employee API v1.0")
-)
+@EnableDiscoveryClient
+//@EnableSwagger2
+//@OpenAPIDefinition(info =
+//	@Info(title = "Employee API", version = "1.0", description = "Documentation Employee API v1.0")
+//)
 public class EmployeeApplication {
 
 	public static void main(String[] args) {
