@@ -1,0 +1,6 @@
+server:
+  port: 29006
+
+spring:
+  profiles:
+    active: service06

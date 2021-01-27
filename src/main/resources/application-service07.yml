@@ -1,0 +1,6 @@
+server:
+  port: 29007
+
+spring:
+  profiles:
+    active: service07

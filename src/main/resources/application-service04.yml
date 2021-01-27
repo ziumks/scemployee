@@ -1,0 +1,6 @@
+server:
+  port: 29004
+
+spring:
+  profiles:
+    active: service04

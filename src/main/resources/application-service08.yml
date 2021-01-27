@@ -1,0 +1,6 @@
+server:
+  port: 29008
+
+spring:
+  profiles:
+    active: service08
